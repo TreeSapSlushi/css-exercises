@@ -1,0 +1,11 @@
+/* make the element with both the avatar and proportioned classes 300px wide, then give it a height so it retains its original square proportions
+make the element with both the avatar and distorted classes 200px wide, then make its height twice as big as its width */
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
